@@ -1,0 +1,10 @@
+{
+  "name": "workers-durable-objects-python",
+  "private": true,
+  "scripts": {
+    "dev": "uv run pywrangler dev --config wrangler.jsonc",
+    "check": "uv run pywrangler deploy --dry-run --config wrangler.jsonc",
+    "deploy": "uv run pywrangler deploy --config wrangler.jsonc"
+  },
+  "devDependencies": { "wrangler": "^4.145.0" }
+}

@@ -1,0 +1,12 @@
+[project]
+name = "workers-durable-objects-python"
+version = "1.0.0"
+description = "SQLite-backed named counters on Cloudflare Workers and Durable Objects"
+requires-python = ">=3.14.2"
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "workers-py==1.17.5",
+  "workers-runtime-sdk==1.9.2",
+]
